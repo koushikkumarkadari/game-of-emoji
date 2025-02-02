@@ -1,0 +1,22 @@
+.emoji-game-interface {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  padding: 20px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0px;
+  min-height: 100vh;
+  max-height: auto;
+}
+.hr {
+  padding: 0px;
+  margin: 0px;
+}
+@media (max-width: 767px) {
+  .emoji-game-interface {
+    padding: 10px;
+  }
+}

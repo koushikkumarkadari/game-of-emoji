@@ -1,0 +1,85 @@
+.win-or-lose-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  max-height: auto;
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  padding: 20px;
+  font-family: roboto;
+}
+.win-or-lose-card {
+  height: 66%;
+  background-color: #ffffff33;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border:#ffffff33 1px solid;
+}
+.win-or-lose-paragraph {
+  margin: 20px;
+}
+.win-status {
+  color: white;
+  font-size: 50px;
+}
+.best-score-status {
+  color: white;
+  font-size: 40px;
+}
+.point {
+  color: #6a59ff;
+  font-size: 40px;
+  font-weight: bold;
+}
+.play-again-button {
+  background-color: #ffce27;
+  border: 0px;
+  height: 80px;
+  width: 200px;
+  font-family: roboto;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: xx-large;
+}
+@media (max-width: 767px) {
+  .win-or-lose-card-container {
+    padding: 10px;
+  }
+  .win-or-lose-card {
+    height: auto;
+    padding: 10px;
+    flex-direction: column-reverse;
+  }
+  .win-or-lose-paragraph {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .win-status {
+    font-size: xx-large;
+    margin: 5px;
+  }
+  .best-score-status {
+    font-size: xx-large;
+    margin: 5px;
+  }
+  .point {
+    font-size: xx-large;
+    margin: 5px;
+  }
+  .play-again-button {
+    height: 40px;
+    width: 100px;
+    font-size: medium;
+  }
+  .win-or-lose-img {
+    width: 66%;
+  }
+}
